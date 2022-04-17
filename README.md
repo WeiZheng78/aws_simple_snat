@@ -9,7 +9,7 @@ This example shows the following things:
 
 ## Getting Started
 
-Rrerequisite: Generate terraform-key.pem via AWS Console
+Prerequisite: Generate key pair terraform-key in Tokyo - ap-northeast-1 through AWS Console, and replace terraform-key.pem with downloaded one.
 
 Provision the stack.
 
