@@ -8,6 +8,7 @@ This example shows the following things:
 - Add terraform-key.pem to the both instances.
 
 ## Getting Started
+
 Rrerequisite: Generate terraform-key.pem via AWS Console
 
 Provision the stack.
@@ -23,7 +24,8 @@ nat_public_ip = 35.73.142.227
 private_instance_id = i-01acdcda755b6736c
 ```
 
-Test One - Verify the IP exposed to internet is Nat instance's EIP
+Test One - Verify the IP being exposed to internet is Nat instance's EIP only, and curl checkip.amazonaws.com to get the EIP via https only.
+
 Make sure you have access to the instance in the private subnet.
 
 ```console
