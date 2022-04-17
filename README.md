@@ -33,7 +33,7 @@ Make sure you have access to the instance in the private subnet.
 ```
 
 ```console
-% curl https://checkip.amazoneaws.com
+% curl https://checkip.amazonaws.com
 35.73.142.227
 % curl http://checkip.amazonaws.com
 curl: (7) Failed to connect to checkip.amazonaws.com port 80 after 2053 ms: Connection refused
