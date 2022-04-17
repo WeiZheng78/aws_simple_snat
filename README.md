@@ -55,7 +55,7 @@ Once enter the Nat instance, try below ssh to see if the private ip is sshable
 ```console
 % ssh -i /tmp/terraform-key.pem ec2-user@example-terraform-aws-nat-instance
 ```
-Check the ip of the Private instance. to confirm it only leverage internal ip and not routable via internet 
+Check the ip of the Private instance. and confirm it only leverages internal ip and not routable via internet 
 ```console
 % ifconfig
 ```
