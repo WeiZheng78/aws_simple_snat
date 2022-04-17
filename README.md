@@ -1,4 +1,4 @@
-# Example of terraform-aws-nat-instance
+# Example of Simple AWS Simple SNAT
 
 This example shows the following things:
 
@@ -8,6 +8,7 @@ This example shows the following things:
 - Add terraform-key.pem to the both instances.
 
 ## Getting Started
+Rrerequisite: Generate terraform-key.pem via AWS Console
 
 Provision the stack.
 
