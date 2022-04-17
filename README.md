@@ -1,4 +1,4 @@
-# Example of Simple AWS Simple SNAT
+# AWS Simple SNAT
 
 This example shows the following things:
 
