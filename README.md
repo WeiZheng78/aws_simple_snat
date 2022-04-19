@@ -42,7 +42,7 @@ curl: (7) Failed to connect to checkip.amazonaws.com port 80 after 2053 ms: Conn
 Test Two - Verify The Nat instance plays role of bastion server
 In your desktop, try below command to see if the nat public ip is sshable
 ```console
-% ssh -i terraform-key.pem 35.73.142.227
+% ssh -i terraform-key.pem ec2-user@35.73.142.227
 ```
 
 ```console
