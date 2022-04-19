@@ -51,8 +51,7 @@ resource "aws_eip" "nat" {
   }
 }
 
-# IAM policy for port forwarding (optional)
-resource "aws_iam_role_policy" "snat_service" {
+resource "aws_iam_role_policy" "nat_service_policy" {
   role   = module.nat.iam_role_name
   policy = <<EOF
 {
